@@ -3,20 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/perfume.jpg" type="image/x-icon" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/co.png" type="images/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
     <title>Serene Sip Cafe</title>
   </head>
   <body>
     <!--header section-->
-    <header id="header">
-      <h1>Welcome to Serene Sips</h1>
-      <p>Indulge in the finest coffee experience crafted just for you.</p>
-      <button>Explore More Menu</button>
+    <header id="header" class="container">
+      <div class="content">
+        <h1>Welcome to Serene Sips</h1>
+        <p>Indulge in the finest coffee experience crafted just for you.</p>
+        <a href="#menu">Explore More Menu</a>
+      </div>
     </header>
 
     <!--navigation section-->
@@ -32,24 +37,8 @@
     <!--our menu section-->
     <section id="menu">
       <div class="menu-list">
-      <h2>Our Menu</h2>
-      <h3>Coffee Selections</h3>
-
-      <div class="card">
-        <img
-          src="images/americano.jpeg"
-          alt="americano"
-          classs="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">Americano</h4>
-          <p class="card-text">
-            - Strong and black coffee. <br />
-            Perfect for the bold coffee enthusiast. <br />
-            <span> $2.50</span>
-          </p>
-          <button class="btn">Order</button>
-        </div>
+        <h2>Our Menu</h2>
+        <h3>Coffee Selections</h3>
       </div>
 
       <div class="card">
@@ -57,23 +46,8 @@
           src="images/americano.jpeg"
           alt="americano"
           classs="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">Americano</h4>
-          <p class="card-text">
-            - Strong and black coffee. <br />
-            Perfect for the bold coffee enthusiast. <br />
-            <span> $2.50</span>
-          </p>
-          <button class="btn">Order</button>
-        </div>
-      </div>
-
-     <div class="card">
-        <img
-          src="images/americano.jpeg"
-          alt="americano"
-          classs="card-img-top"
+          width="230"
+          height="227"
         />
         <div class="card-body">
           <h4 class="card-title">Americano</h4>
@@ -88,12 +62,14 @@
 
       <div class="card">
         <img
-          src="images/americano.jpeg"
-          alt="americano"
+          src="images/cold brew1.jpg"
+          alt="cold brew"
           classs="card-img-top"
+          width="100%"
+          height="150%"
         />
         <div class="card-body">
-          <h4 class="card-title">Americano</h4>
+          <h4 class="card-title">cold brew</h4>
           <p class="card-text">
             - Strong and black coffee. <br />
             Perfect for the bold coffee enthusiast. <br />
@@ -102,23 +78,64 @@
           <button class="btn">Order</button>
         </div>
       </div>
-      
-<div class="menu-list">
-      <h3>Delicious Snacks</h3>
+
+      <div class="card">
+        <img
+          src="images/coffee.avif"
+          alt="coffee"
+          classs="card-img-top"
+          width="100%"
+          height="150%"
+        />
+        <div class="card-body">
+          <h4 class="card-title">Coffee</h4>
+          <p class="card-text">
+            - Strong and black coffee. <br />
+            Perfect for the bold coffee enthusiast. <br />
+            <span> $2.50</span>
+          </p>
+          <button class="btn">Order</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="images/vanilla latte.jpeg"
+          alt="vanilla latte"
+          classs="card-img-top"
+          width="100%"
+          height="150%"
+        />
+        <div class="card-body">
+          <h4 class="card-title">vanilla latte</h4>
+          <p class="card-text">
+            - Strong and black coffee. <br />
+            Perfect for the bold coffee enthusiast. <br />
+            <span> $2.50</span>
+          </p>
+          <button class="btn">Order</button>
+        </div>
+      </div>
+
+      <div class="menu-list">
+        <h3>Delicious Snacks</h3>
+      </div>
       <div class="card">
         <img
           src="images/classic croissant.jpeg"
           alt="classic croissant"
           class="card-img-top"
+          width="250"
+          height="250"
         />
         <div class="card-body">
           <h4 class="card-title">Classic Croissant</h4>
           <p class="card-text">
             - Light, flaky, and buttery.<br />
             A timeless delight.<br />
-           <span>$2.50</span>
+            <span>$2.50</span>
           </p>
-           <button class="btn">Order</button>
+          <button class="btn">Order</button>
         </div>
       </div>
 
@@ -127,15 +144,17 @@
           src="images/almond croissant.jpeg"
           alt="Almond Croissant"
           class="card-img-top"
+          width="250"
+          height="190"
         />
         <div class="card-body">
           <h4 class="card-title">Almond Croissant</h4>
           <p class="card-text">
             - Classic croissant filled with almond paste.<br />
             Irresistibly flaky and nutty.<br />
-           <span>$3.00</span>
+            <span>$3.00</span>
           </p>
-           <button class="btn">Order</button>
+          <button class="btn">Order</button>
         </div>
       </div>
 
@@ -148,11 +167,11 @@
         <div class="card-body">
           <h4 class="card-title">Bagel with Cream Cheese</h4>
           <p class="card-text">
-            - Freshly baked bagel served with cream cheese.<br />
+            - Freshly baked bagel with cream cheese.<br />
             A simple and satisfying choice.<br />
-           <span>$2.50</span>
+            <span>$2.50</span>
           </p>
-           <button class="btn">Order</button>
+          <button class="btn">Order</button>
         </div>
       </div>
 
@@ -161,15 +180,17 @@
           src="images/chocolate croissant.jpeg"
           alt="Chocolate Croissant"
           class="card-img-top"
+          width="220"
+          height="220"
         />
         <div class="card-body">
           <h4 class="card-title">Chocolate Croissant</h4>
           <p class="card-text">
             - Buttery croissant with a rich chocolate filling.<br />
             A decadent pastry delight.<br />
-           <span>$3.25</span>
+            <span>$3.25</span>
           </p>
-           <button class="btn">Order</button>
+          <button class="btn">Order</button>
         </div>
       </div>
     </section>

@@ -10,6 +10,7 @@ html {
 header {
   text-align: center;
   padding: 50px 0;
+  width: auto;
 }
 header h1 {
   font-family: "Playfair Display Sc", sans-serif;
@@ -20,16 +21,47 @@ header h1 {
 header p {
   font-family: "Lato", sans-serif;
 }
-header button {
+header a {
+  font-family: "Lato", sans-serif;
+  display: block;
   width: 200px;
   height: 40px;
+  line-height: 40px;
   background-color: #49281a;
-  color: white;
+  color: #f0e2c5;
+  text-decoration: none;
   border-radius: 5px;
   border: none;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
-
+.container {
+  background-image: url(images/b.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #49281a;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content h1 {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  background-color: transparent;
+}
+.content p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+}
+.content {
+  background-color: transparent;
+}
 /*nav section*/
 nav {
   text-align: center;
