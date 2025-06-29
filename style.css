@@ -35,25 +35,25 @@ header a {
   margin: 20px auto 0 auto;
 }
 .container {
-  background-image: url(images/b.jpg);
+  background-image: url(images/a.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: #49281a;
-  height: 350px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 .content h1 {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem;*/
   color: white;
   text-align: center;
   background-color: transparent;
 }
 .content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-top: 10px;
   color: white;
