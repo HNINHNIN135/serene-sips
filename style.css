@@ -66,17 +66,25 @@ header a {
 nav {
   text-align: center;
   padding: 20px 0;
+  position: sticky;
+  top: 0;
+  background-color: #49281a;
+}
+nav ul {
+  background-color: #49281a;
 }
 nav ul li {
   display: inline-block;
-  border: 1px solid;
+  background-color: #49281a;
+  /*border: 1px solid;*/
   font-family: "Lato", sans-serif;
   padding: 10px 20px;
   border-radius: 5px;
   margin: 10px;
 }
 nav ul li a {
-  color: #49281a;
+  background-color: #49281a;
+  color: white;
   text-decoration: none;
 }
 
@@ -130,7 +138,7 @@ nav ul li a {
 }
 .btn {
   background-color: #49281a;
-  color: #f0e2c5;
+  color: #49281a;
   border: none;
   width: 100%;
   padding: 10px 0;
@@ -176,6 +184,11 @@ form div {
 footer {
   text-align: center;
   font-family: "Lato", sans-serif;
+}
+footer a {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 footer p {
   font-size: 0.9rem;
